@@ -16,7 +16,7 @@ shipping_per_order_rmb: 3        # 每单处理费
 default_item_weight_kg: 0.3      # 默认单品重量(用户可按品类调整)
 
 # 经营目标
-target_net_margin: 0.35          # 目标净利率 35% (端到端测试用)
+target_net_margin: 0.30          # 目标净利率 30%
 return_reserve_rate: 0.05        # 退货/售后预留 5%
 
 # 价格带
