@@ -1,0 +1,32 @@
+# SEA 跨境电商选品 — 成本与目标参数
+# 用户拿到实际报价后直接改这里,Hermes 自动重读
+
+# 目标市场
+target_market: "印尼"
+target_platform: "Shopee Indonesia"
+
+# 平台收费
+shopee_commission_rate: 0.06      # 6% 家居类目主流
+shopee_payment_rate: 0.015       # 1.5% 支付手续费
+vat_rate: 0.11                   # 印尼 PPN 11%
+
+# 集运报价(燕文 / 4PX 印尼专线 默认估算)
+shipping_per_kg_rmb: 25          # 每公斤人民币
+shipping_per_order_rmb: 3        # 每单处理费
+default_item_weight_kg: 0.3      # 默认单品重量(用户可按品类调整)
+
+# 经营目标
+target_net_margin: 0.30          # 目标净利率 30%
+return_reserve_rate: 0.05        # 退货/售后预留 5%
+
+# 价格带
+price_band_rmb_min: 5            # 1688 进价下限
+price_band_rmb_max: 20           # 1688 进价上限
+
+# 报告偏好
+report_categories: 5             # 每日报 N 个候选品
+report_language_order:           # 翻译输出顺序
+  - "中文(原)"
+  - "印尼语"
+  - "越南语"
+  - "泰语"
